@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    margin-top: 20px;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    margin: 200px 450px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.card>img {
+    max-width: 48%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.info {
+    margin-top: 20px;
+}
+.info_card {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+.info_card>p {
+    color: hsl(212, 21%, 14%);
+}
+span {
+    color: hsl(228, 12%, 48%);
+}
+
+/* Price */
+.price {
+    margin-top: 20px;
+}
+.new_price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;;
+    font-size: x-large;
+    padding-right: 10px;
+}
+.old_price {
+    padding-bottom: 100px;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+/* button */
+.btn {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.btn-add {
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    padding: 10px 20%;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.btn-add:hover {
+    transition: 0.8s;
+    background-color: hsl(158, 94%, 14%);
+}
