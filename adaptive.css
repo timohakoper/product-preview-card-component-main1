@@ -1,4 +1,4 @@
-@media (max-width:400px) {
+@media (max-width:500px) {
     .card {
         flex-direction: column;
         margin: 20px 11px;
@@ -9,7 +9,6 @@
         height: 314px;
         margin-bottom: 20px;
     }
-    
 }
 @media (min-width:1000px) {
 .card {
