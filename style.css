@@ -20,14 +20,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .card {
-    margin: 200px 300px;
     align-items: center;
     border-radius: 10px;
     background-color: #fff;
-    width: auto;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    margin: 15px auto;
+    text-align: justify;
 }
+
 .card>img {
     max-width: 48%;
     width: 100%;
